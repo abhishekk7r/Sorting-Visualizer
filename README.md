@@ -17,13 +17,13 @@ Before running the program, ensure that you have the following installed:
 
     For example, using g++:
     ```bash
-    g++ -o sorting_visualizer sorting_visualizer.cpp -lSDL2
+    g++ -I src/include -L src/lib -o main main.cpp -lmingw32 -lSDL2main -lSDL2
     ```
 
 3. Run the compiled executable.
 
     ```bash
-    ./sorting_visualizer
+    ./main
     ```
 
 4. A window titled "Bubble Sort Visualizer" will appear, displaying a set of bars. The height of the bars represents the values to be sorted.
