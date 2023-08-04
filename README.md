@@ -32,6 +32,14 @@ Before running the program, ensure that you have the following installed:
 
 6. Once the sorting is complete, the window will remain open. You can close it manually to exit the program.
 
+## Known Problems
+
+1. I have not yet figured out how to take input from the user to select the sorting algorithm of their choice. If you want to use different algorithms, you can simply change line 204 and call the sorting function of your choice.
+
+2. Unable to add flashing of bars while sorting. The current implementation of rendering bars only updates the display after each step of sorting, without any flashing effect.
+
+3. While merge sorting, you cannot see the unsorted bars, but you can see the sorting process. This is because the bars are only rendered once the sorting process starts, and not before.
+
 ## About the Sorting Algorithms
 
 ### Bubble Sort
