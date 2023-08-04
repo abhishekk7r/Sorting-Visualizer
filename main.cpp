@@ -135,6 +135,9 @@ void mergeSort(vector<int>& arr, int left, int right) {
     if (left >= right)
         return;
 
+    renderBars(SDL_GetRenderer(SDL_GetWindowFromID(1)), arr, right);
+    SDL_Delay(70);
+
     int mid = left + (right - left) / 2;
 
     // Sort the first and second halves
@@ -143,9 +146,6 @@ void mergeSort(vector<int>& arr, int left, int right) {
 
     // Merge the sorted halves
     merge(arr, left, mid, right);
-    
-    renderBars(SDL_GetRenderer(SDL_GetWindowFromID(1)), arr, right);
-    SDL_Delay(30);
 }
 
 // //int getSortingOption() {
