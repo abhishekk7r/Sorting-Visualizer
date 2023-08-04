@@ -7,13 +7,13 @@ This is a C++ program that visualizes two sorting algorithms - Bubble Sort and M
 Before running the program, ensure that you have the following installed:
 
 - C++ Compiler (e.g., g++)
-- SDL2 library (Simple DirectMedia Layer) - [Installation Guide](https://wiki.libsdl.org/Installation)
+- SDL2 library (Simple DirectMedia Layer) - [Installation Guide](https://wiki.libsdl.org/Installation) (Don't worry about downloading and installing separately. It is included in the source code)
 
 ## How to Use
 
 1. Clone the repository or download the source code.
 
-2. Compile the code using your C++ compiler. Make sure to link the SDL2 library properly.
+2. Compile the code using your C++ compiler. Make sure to link the SDL2 library properly. I have included the SDL2 library in the src folder so you do not have to worry about installing SDL2 separately.
 
     For example, using g++:
     ```bash
